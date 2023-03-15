@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.textarea {
+  padding: 5px;
+  font-size: 16px;
+  border-width: 1px;
+  border-color: #cccccc;
+  background-color: #ffffff;
+  color: #000000;
+  border-style: solid;
+  border-radius: 10px;
+  box-shadow: 0px 0px 3px rgba(66, 66, 66, 0.75);
+}
+
+.text-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  text-align: center;
+}
+
+.textarea:focus {
+  outline: none;
+}
+.checkbox {
+  align-self: center;
+}
+.xd {
+  border: none;
+}
+main {
+  display: flex;
+  background-color: #f3f3fb;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+li {
+  list-style-type: none;
+  text-transform: capitalize;
+}
+form {
+  align-items: center;
+}
+.add-btn {
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  border: none;
+  font-size: 12px;
+  background: #70d960;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+  height: 30px;
+}
+
+.main-header {
+  justify-content: center;
+  align-items: center;
+  background-color: #4370e9;
+  color: white;
+  height: 100px;
+  width: 100%;
+  padding: 50px 40px;
+  overflow: hidden;
+}
+.delete-btn {
+  background-color: red;
+  color: white;
+  border-radius: 10px;
+  align-self: flex-end;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.add-btn:disabled {
+  opacity: 0.4;
+}
+
+.container {
+  width: 600px;
+  background-color: #fff;
+  height: 700px;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.list-container {
+  padding: 20px;
+  overflow: hidden;
+  height: 500px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.not-listed {
+  overflow: hidden;
+}
+.list-items {
+  align-content: center;
+  padding: 10px;
+  border-bottom: 0.1em solid #bfbfbf70;
+  display: flex;
+  flex-direction: row;
+
+  justify-content: center;
+  width: 95%;
+}
+
+li {
+  color: #4370e9;
+  font-weight: 500;
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+}
